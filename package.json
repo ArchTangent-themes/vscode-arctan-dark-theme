@@ -1,0 +1,39 @@
+{
+    "name": "arctan-dark",
+    "publisher": "ArchTangent",
+    "author": "ArchTangent <archtangent13@gmail.com>",
+    "displayName": "Arctan Dark",
+    "description": "Actan Dark theme for VS Code",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "arctan",
+        "dark"
+    ],
+    "license": "MIT",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arctan Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arctan Dark-color-theme.json"
+            },
+            {
+                "label": "Arctan Dark (Soft)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arctan Dark (Soft)-color-theme.json"
+            },
+            {
+                "label": "Arctan Dark (Softer)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arctan Dark (Softer)-color-theme.json"
+            }
+        ]
+    }
+}
