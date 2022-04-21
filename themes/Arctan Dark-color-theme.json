@@ -766,7 +766,8 @@
 		{
 			"scope": [
 				// General
-				"string.quoted.double",                        
+				"string.quoted.double",
+				"string.quoted.single",
 				// Rust
 				"punctuation.definition.char.rust",
 				"string.quoted.single.char.rust",
