@@ -1292,7 +1292,32 @@
 			"settings": {
 				"foreground": "#161B22",
 			}
-		},                
+		},
+		//* HTML
+		{
+			"scope": [
+				"entity.name.tag.html",
+			],
+			"settings": {
+				"foreground": "#C1C5CC",
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#CD7EDD", // Arctan Keyword
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.tag.begin.html",
+			],
+			"settings": {
+				"foreground": "#67AAE5",  // Arctan Blue
+			}
+		},
 		//* Other
 		{
 			"scope": "token.info-token",
