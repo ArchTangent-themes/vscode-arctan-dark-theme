@@ -1102,7 +1102,6 @@
 				"source.ron",
 				"source.toml",
 				"source.yaml",
-				"variable.key.toml",
 				"support.type.property-name.toml",
 			],
 			"settings": {
@@ -1145,8 +1144,6 @@
 			"scope": [
 				"support.type.property-name.table.toml",
 				"punctuation.definition.table.toml",
-				"variable.key.array.table.toml",
-				"variable.key.table.toml",
 			],
 			"settings": {
 				"foreground": "#67AAE5",
