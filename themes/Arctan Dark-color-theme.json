@@ -1416,6 +1416,10 @@
 			"foreground": "#CD7EDD", // Arctan Keyword
 			"fontStyle": "",
 		},
+		"keyword.constant": {
+			"foreground": "#CD7EDD", // Arctan Keyword
+			"fontStyle": "",
+		},
 		"keyword.async": { // Rust async keyword
 			"foreground": "#CD7EDD", // Arctan Keyword
 			"fontStyle": "",

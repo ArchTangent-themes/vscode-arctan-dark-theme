@@ -1420,6 +1420,10 @@
 			"foreground": "#CD7EDD", // Arctan Keyword
 			"fontStyle": "",
 		},
+		"keyword.constant": {
+			"foreground": "#CD7EDD", // Arctan Keyword
+			"fontStyle": "",
+		},
 		"keyword.unsafe": {  // Rust unsafe keyword
 			"foreground": "#CD7EDD",
 			"fontStyle": "",
