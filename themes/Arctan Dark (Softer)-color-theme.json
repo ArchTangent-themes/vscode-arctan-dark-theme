@@ -774,6 +774,7 @@
 				"string.quoted.double.rust",                        
 				// Python
 				"string.quoted.single.python",
+				"string.quoted.multi.python",
 			],
 			"settings": {
 				"foreground": "#94BF69",
