@@ -1530,7 +1530,7 @@
 			"foreground": "#CC9451",
 			"fontStyle": "",
 		},
-		"class.Typehint": {
+		"class.typeHint": {
 			"foreground": "#5BCCAA",
 			"fontStyle": "",
 		},
