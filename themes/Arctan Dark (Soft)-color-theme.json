@@ -764,6 +764,7 @@
 		{
 			"scope": [
 				// General
+				"string.quoted.raw",
 				"string.quoted.double",
 				"string.quoted.single",
 				// Rust
