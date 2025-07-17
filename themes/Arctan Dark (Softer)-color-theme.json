@@ -1,7 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
-    "semanticHighlighting": true,
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBar.activeBorder": "#1f6feb",
 		"activityBar.background": "#1A1D21",
@@ -643,9 +643,9 @@
 				// General
 				"constant.other.caps", // Constants like DEBUG
 				"entity.name.type",
-				"variable",                        
+				"variable",
 				// Rust
-				"constant.other.caps.rust", 
+				"constant.other.caps.rust",
 				"entity.name.type.numeric.rust",
 				"entity.name.type.primitive.rust",
 				"keyword.operator.key-value.rust",
@@ -657,13 +657,13 @@
 				"punctuation.comma.rust",
 				"punctuation.semi.rust",
 				"source.rust",
-				"variable.other.rust",                        
+				"variable.other.rust",
 				// Python
-				"constant.other.caps.python",			
+				"constant.other.caps.python",
 				"entity.other.inherited-class.python",
 				"meta.function-call.arguments.python",
 				"punctuation.definition.arguments.begin.python",
-				"punctuation.definition.arguments.end.python",				
+				"punctuation.definition.arguments.end.python",
 				"punctuation.section.function.begin.python",
 				"punctuation.separator.annotation.result.python",
 				"punctuation.separator.arguments.python",
@@ -686,10 +686,10 @@
 		{
 			"scope": [
 				// General
-				"comment",                        
+				"comment",
 				// Rust
 				"comment.line.documentation.rust",
-				"comment.line.double-slash.rust",                        
+				"comment.line.double-slash.rust",
 				// Python
 				"comment.line.number-sign.python",
 				"string.quoted.docstring.multi.python",
@@ -713,17 +713,17 @@
 				"keyword.other.crate.rust",
 				"storage.modifier.mut.rust",
 				"storage.type.rust",
-				"variable.language.super.rust",                        
+				"variable.language.super.rust",
 				// Python
 				"keyword.control.flow.python",
 				"keyword.control.import.python",
 				"keyword.operator.logical.python",
 				"storage.type.class.python",
-				"storage.type.function.python",   
+				"storage.type.function.python",
 				"storage.type.function.async.python",
 				// C
 				"storage.type.struct.c",
-				"storage.type.built-in.primitive.c"	
+				"storage.type.built-in.primitive.c"
 			],
 			"settings": {
 				"foreground": "#CD7EDD",
@@ -736,9 +736,9 @@
 				// Rust
 				"entity.name.type.enum.rust",
 				"entity.name.type.struct.rust",
-				"entity.name.type.trait.rust",     
+				"entity.name.type.trait.rust",
 				// Python
-				"entity.name.type.class.python",                        
+				"entity.name.type.class.python",
 			],
 			"settings": {
 				"foreground": "#67AAE5",
@@ -749,11 +749,9 @@
 		{
 			"scope": [
 				// General
-				"meta.function.definition",                    
-				// Rust
-				"entity.name.function.rust",                        
+				"meta.function.definition",
+				"entity.name.function",
 				// Python
-				"entity.name.function.python",
 				"meta.function-call.generic.python",
 				"meta.function-call.python",
 			],
@@ -771,7 +769,7 @@
 				// Rust
 				"punctuation.definition.char.rust",
 				"string.quoted.single.char.rust",
-				"string.quoted.double.rust",                        
+				"string.quoted.double.rust",
 				// Python
 				"string.quoted.single.python",
 				"string.quoted.multi.python",
@@ -785,12 +783,12 @@
 		{
 			"scope": [
 				// General
-				"constant.character.escape",                        
+				"constant.character.escape",
 				// Rust
-				"punctuation.definition.interpolation.rust",                        
-				"constant.character.escape.rust",                        
+				"punctuation.definition.interpolation.rust",
+				"constant.character.escape.rust",
 				// Python
-				"constant.character.format.placeholder.other.python",                        
+				"constant.character.format.placeholder.other.python",
 				"constant.character.escape.python",
 			],
 			"settings": {
@@ -813,12 +811,12 @@
 		{
 			"scope": [
 				// General
-				"constant.numeric",                        
+				"constant.numeric",
 				// Rust
 				"constant.numeric.bin.rust",
 				"constant.numeric.decimal.rust",
 				"constant.numeric.hex.rust",
-				"constant.numeric.oct.rust",                        
+				"constant.numeric.oct.rust",
 				// Python
 				"constant.numeric.bin.python",
 				"constant.numeric.dec.python",
@@ -836,9 +834,9 @@
 		{
 			"scope": [
 				// General
-				"constant.language.boolean",                        
+				"constant.language.boolean",
 				// Rust
-				"constant.language.bool.rust",                        
+				"constant.language.bool.rust",
 				// Python
 				"constant.language.python",
 			],
@@ -851,7 +849,7 @@
 		{
 			"scope": [
 				// General
-				"keyword.operator",                        
+				"keyword.operator",
 				// Rust
 				"keyword.operator.arrow.fat.rust",
 				"keyword.operator.arrow.skinny.rust",
@@ -862,11 +860,11 @@
 				"keyword.operator.logical.rust",
 				"keyword.operator.math.rust",
 				"keyword.operator.namespace.rust",
-				"keyword.operator.question.rust",                        
+				"keyword.operator.question.rust",
 				// Python
 				"keyword.operator.arithmetic.python",
 				"keyword.operator.assignment.python",
-				"keyword.operator.comparison.python",                  
+				"keyword.operator.comparison.python",
 			],
 			"settings": {
 				"foreground": "#89C6E5",
@@ -877,7 +875,7 @@
 		{
 			"scope": [
 				"entity.name.function.decorator.python",
-				"punctuation.definition.decorator.python",  
+				"punctuation.definition.decorator.python",
 			],
 			"settings": {
 				"foreground": "#98CFEA",
@@ -901,7 +899,7 @@
 		{
 			"scope": [
 				// Rust
-				"variable.language.self.rust",                        
+				"variable.language.self.rust",
 				// Python
 				"variable.language.special.cls.python",
 				"variable.language.special.self.python",
@@ -944,12 +942,12 @@
 				"foreground": "#6CA6D8",
 				"fontStyle": "",
 			}
-		},                
+		},
 		//* Type Hints (Teal)
 		{
 			"scope": [
 				// Python
-				"support.type.python",                        
+				"support.type.python",
 			],
 			"settings": {
 				"foreground": "#58c4a3",
@@ -960,7 +958,7 @@
 		{
 			"scope": [
 				// Python
-				"support.function.magic.python",                    
+				"support.function.magic.python",
 			],
 			"settings": {
 				"foreground": "#89C6E5",
@@ -970,13 +968,13 @@
 		{
 			"scope": [
 				// Python
-				"support.variable.magic.python",                        
+				"support.variable.magic.python",
 			],
 			"settings": {
 				"foreground": "#6BB75B",
 				"fontStyle": "",
 			}
-		},		
+		},
 		//* Markdown
 		{ // Plain Text (White)
 			"scope": [
@@ -1059,7 +1057,7 @@
 			"scope": [
 				"meta.link.inline.markdown",
 				"string.other.link.title.markdown",
-				"markup.underline.link.markdown",                        
+				"markup.underline.link.markdown",
 			],
 			"settings": {
 				"foreground": "#568AD8",
@@ -1120,15 +1118,15 @@
 				"foreground": "#8B949E",
 				"fontStyle": "",
 			}
-		},                
+		},
 		{
 			"scope": [
 				"entity.name.tag.ron",
 				"entity.name.tag.yaml",
-				"support.type.property-name.json",                        
+				"support.type.property-name.json",
 			],
 			"settings": {
-				"foreground": "#CCBC76",  // Arctan Yellow 2
+				"foreground": "#CCBC76", // Arctan Yellow 2
 				"fontStyle": "",
 			}
 		},
@@ -1184,7 +1182,7 @@
 				"foreground": "#CCBC76", // ArcTan Yellow 2
 				"fontStyle": "",
 			}
-		},                
+		},
 		{
 			"scope": [
 				"constant.numeric.float.toml",
@@ -1194,13 +1192,13 @@
 				"foreground": "#CCBC76", // ArcTan Yellow 2
 				"fontStyle": "",
 			}
-		},                
+		},
 		{
 			"scope": [
 				"constant.numeric.float.yaml",
 				"constant.numeric.integer.yaml",
 				"constant.numeric.json",
-				"constant.numeric.ron",                        
+				"constant.numeric.ron",
 			],
 			"settings": {
 				"foreground": "#CC9451",
@@ -1310,9 +1308,9 @@
 		{
 			"scope": "punctuation.definition.tag.begin.html",
 			"settings": {
-				"foreground": "#67AAE5",  // Arctan Blue
+				"foreground": "#67AAE5", // Arctan Blue
 			}
-		},         
+		},
 		//* Other
 		{
 			"scope": "token.info-token",
@@ -1401,7 +1399,7 @@
 			}
 		},
 	],
-    "semanticTokenColors": {
+	"semanticTokenColors": {
 		// --- Token Types --- //
 		//* Comments
 		"comment": {
@@ -1425,85 +1423,84 @@
 			"foreground": "#CD7EDD", // Arctan Keyword
 			"fontStyle": "",
 		},
-		"keyword.unsafe": {  // Rust unsafe keyword
+		"keyword.unsafe": { // Rust unsafe keyword
 			"foreground": "#CD7EDD",
 			"fontStyle": "",
 		},
 		//* Plain Text
-		"angle": {  // Rust angle brackets <>
+		"angle": { // Rust angle brackets <>
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"brace": {  // Rust square brackets []
+		"brace": { // Rust square brackets []
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"builtin": {    // Zig builtins like @import
+		"builtin": { // Zig builtins like @import
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"builtinType": {    // Rust types like u32, str
+		"builtinType": { // Rust types like u32, str
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"colon": {  // Rust colon :
+		"colon": { // Rust colon :
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"comma": {  // Rust comma ,
+		"comma": { // Rust comma ,
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},  
+		},
 		"constParameter": { // Rust const parameters - N in <const N: usize>
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"dot": {    // Rust dot .
+		"dot": { // Rust dot .
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-           
-		"generic": {    // Rust generic tokens with no mapping
+		"generic": { // Rust generic tokens with no mapping
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},                
+		},
 		"module": { // Python modules
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},            
+		},
 		"namespace": {
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},                               
+		},
 		"parameter": {
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"parenthesis": {    // Rust parenthesis ()
+		"parenthesis": { // Rust parenthesis ()
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
 		"property": {
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},   
-		"punctuation": {    // Rust general punctuation
+		},
+		"punctuation": { // Rust general punctuation
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},             
-		"semicolon": {  // Rust semicolon ;
+		},
+		"semicolon": { // Rust semicolon ;
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},            
+		},
 		"type": {
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"typeAlias": {  // Any aliases, including Rust Self in impls
+		"typeAlias": { // Any aliases, including Rust Self in impls
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"typeAlias.trait": {  // Rust type aliases in impls (Item in Iterator)
+		"typeAlias.trait": { // Rust type aliases in impls (Item in Iterator)
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
@@ -1515,11 +1512,11 @@
 			"foreground": "#C1C5CC", // Arctan Text
 			"fontStyle": "",
 		},
-		"variable.static": { 	// Static variables
+		"variable.static": { // Static variables
 			"foreground": "#C1C5CC",
 			"fontStyle": ""
 		},
-		"variable.readonly": {	// Python read-only (const) variables
+		"variable.readonly": { // Python read-only (const) variables
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
@@ -1528,8 +1525,16 @@
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
+		"class.builtin": {
+			"foreground": "#CC9451",
+			"fontStyle": "",
+		},
+		"class.Typehint": {
+			"foreground": "#5BCCAA",
+			"fontStyle": "",
+		},
 		"class.declaration": {
-			"foreground": "#67AAE5",  // Arctan Blue
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
 		},
 		"enum": {
@@ -1545,14 +1550,14 @@
 			"fontStyle": "",
 		},
 		"function": {
-			"foreground": "#67AAE5",  // Github Blue
+			"foreground": "#67AAE5", // Github Blue
 			"fontStyle": "",
 		},
 		"function.async": { // async functions
-			"foreground": "#67AAE5",  // Github Blue
+			"foreground": "#67AAE5", // Github Blue
 			"fontStyle": "",
 		},
-		"function.unsafe": {  // Rust unsafe functions
+		"function.unsafe": { // Rust unsafe functions
 			"foreground": "#67AAE5",
 			"fontStyle": "",
 		},
@@ -1562,153 +1567,153 @@
 			"fontStyle": "",
 		},
 		"interface.declaration": {
-			"foreground": "#67AAE5",  // Arctan Blue
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
 		},
 		"method": {
-			"foreground": "#67AAE5",  // Arctan Blue
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
 		},
-		"method.abstract": {   // Python - ABC Absract methods - @abstractmethod
+		"method.abstract": { // Python - ABC Absract methods - @abstractmethod
 			"foreground": "#67AAE5",
 			"fontStyle": "",
 		},
-		"method.static": { 	// Static methods (no self parameter (Rust); @staticmethod (Py))
+		"method.static": { // Static methods (no self parameter (Rust); @staticmethod (Py))
 			"foreground": "#67AAE5",
 			"fontStyle": "",
 		},
-		"method.unsafe": {  // Rust unsafe methods
+		"method.unsafe": { // Rust unsafe methods
 			"foreground": "#67AAE5",
 			"fontStyle": "",
 		},
 		"struct": {
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		}, 
+		},
 		"struct.declaration": {
-			"foreground": "#67AAE5",  // Arctan Blue
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
 		},
-		"trait": {  // Rust (also a token modifier)
+		"trait": { // Rust (also a token modifier)
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"trait.declaration": {  // Rust
-			"foreground": "#67AAE5",  // Arctan Blue
+		"trait.declaration": { // Rust
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
 		},
-		"union": {  // Rust unions
-			"foreground": "#67AAE5",  // Arctan Blue
+		"union": { // Rust unions
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
-		},    
-		"union.declaration": {  // Rust
-			"foreground": "#67AAE5",  // Arctan Blue
+		},
+		"union.declaration": { // Rust
+			"foreground": "#67AAE5", // Arctan Blue
 			"fontStyle": "",
-		},                  
+		},
 		//* Strings
 		"string": {
 			"foreground": "#94BF69", // Arctan String
 			"fontStyle": "",
 		},
 		"character": {
-			"foreground": "#94BF69",  // Arctan String
+			"foreground": "#94BF69", // Arctan String
 			"fontStyle": "",
 		},
 		"escapeSequence": { // Rust escape sequence
 			"foreground": "#CC9451", // Arctan Escape
 			"fontStyle": "",
 		},
-		"formatSpecifier": {    // Rust {:?}
-			"foreground": "#CC9451",  // Arctan Escape
+		"formatSpecifier": { // Rust {:?}
+			"foreground": "#CC9451", // Arctan Escape
 			"fontStyle": "",
-		},		
+		},
 		//* Lifetimes
-		"lifetime": {   // Rust lifetimes
-			"foreground": "#94BF69",  // Arctan String
+		"lifetime": { // Rust lifetimes
+			"foreground": "#94BF69", // Arctan String
 			"fontStyle": "",
 		},
 		//* Operators
-		"arithmetic": {  // Rust arithmetic operators
-			"foreground": "#89C6E5",  // Arctan Lt Blue
+		"arithmetic": { // Rust arithmetic operators
+			"foreground": "#89C6E5", // Arctan Lt Blue
 			"fontStyle": "",
 		},
-		"bitwise": {  // Rust bitwise operators
-			"foreground": "#89C6E5",  // Arctan Lt Blue
+		"bitwise": { // Rust bitwise operators
+			"foreground": "#89C6E5", // Arctan Lt Blue
 			"fontStyle": "",
 		},
 		"comparison": { // Rust comparison operators
-			"foreground": "#89C6E5",  // Arctan Lt Blue
+			"foreground": "#89C6E5", // Arctan Lt Blue
 			"fontStyle": "",
 		},
-		"logical": {    // Rust logical operators
-			"foreground": "#89C6E5",  // Arctan Lt Blue
+		"logical": { // Rust logical operators
+			"foreground": "#89C6E5", // Arctan Lt Blue
 			"fontStyle": "",
 		},
 		"operator": {
-			"foreground": "#89C6E5",  // Arctan Lt Blue
+			"foreground": "#89C6E5", // Arctan Lt Blue
 			"fontStyle": "",
 		},
-		"operator.controlFlow": {  // Rust control flow operators (including ?)
+		"operator.controlFlow": { // Rust control flow operators (including ?)
 			"foreground": "#89C6E5",
 			"fontStyle": "",
 		},
 		//* Numbers
-		"number": {              
-			"foreground": "#C4BB5E",  // Arctan Yellow
+		"number": {
+			"foreground": "#C4BB5E", // Arctan Yellow
 			"fontStyle": "",
 		},
 		//* Boolean
-		"boolean": {    // Rust {:?}
-			"foreground": "#5BCCAA",   // Arctan Boolean
+		"boolean": { // Rust {:?}
+			"foreground": "#5BCCAA", // Arctan Boolean
 			"fontStyle": "",
 		},
-		"builtinConstant": {    // Python True, False, None
-			"foreground": "#5BCCAA",  // Arctan Boolean
+		"builtinConstant": { // Python True, False, None
+			"foreground": "#5BCCAA", // Arctan Boolean
 			"fontStyle": "",
 		},
 		//* Attributes and brackets
-		"attribute": {  // Rust attribute macros
+		"attribute": { // Rust attribute macros
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"attributeBracket": {   // Rust #[] for attributes
-			"foreground": "#6CA6D8",  // Arctan AttrBracket
+		"attributeBracket": { // Rust #[] for attributes
+			"foreground": "#6CA6D8", // Arctan AttrBracket
 			"fontStyle": "",
 		},
-		"builtinAttribute": {   // Rust repr in #[repr(u8)]
+		"builtinAttribute": { // Rust repr in #[repr(u8)]
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"*.decorator": {  // Python, Javascript (e.g. @classmethod, @dataclass)
-			"foreground": "#98CFEA",  // Arctan Decorator
+		"*.decorator": { // Python, Javascript (e.g. @classmethod, @dataclass)
+			"foreground": "#98CFEA", // Arctan Decorator
 			"fontStyle": "",
 		},
-		"derive": {     // Rust derive macros
+		"derive": { // Rust derive macros
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
 		//* Self and Cls
-		"selfKeyword": {    // Rust self
+		"selfKeyword": { // Rust self
 			"foreground": "#BC4FC6", // Arctan Self
 			"fontStyle": "",
 		},
-		"selfParameter": {  // Python self parameter
+		"selfParameter": { // Python self parameter
 			"foreground": "#BC4FC6", // Arctan Self
 			"fontStyle": "",
 		},
-		"clsParameter": {   // Python class parameter
-			"foreground": "#BC4FC6",   // Arctan Self  
+		"clsParameter": { // Python class parameter
+			"foreground": "#BC4FC6", // Arctan Self  
 			"fontStyle": "",
-		},		
+		},
 		//* Result and Option
 		"enum.defaultLibrary": { // Rust enums (Result, Option)
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},         
+		},
 		"enumMember.defaultLibrary": { // Rust enum members (Ok, Err, Some, None)
 			"foreground": "#D16464", // Arctan Red
 			"fontStyle": "",
-		},                
+		},
 		//* Python-specific
 		"magicFunction": { // Python dunder methods __init__
 			"foreground": "#89C6E5", // Arctan Lt Blue
@@ -1718,13 +1723,13 @@
 			"foreground": "#6BB75B", // Arctan Green
 			"fontStyle": "",
 		},
-		"intrinsic": {  // Python intrinsics
+		"intrinsic": { // Python intrinsics
 			"foreground": "#00aa00",
 			"fontStyle": "",
 		},
 		//* Macros and Builtins
 		"function.builtin:python": {
-			"foreground": "#CC9451",  // Arctan Orange
+			"foreground": "#CC9451", // Arctan Orange
 			"fontStyle": "",
 		},
 		"macro": {
@@ -1748,31 +1753,31 @@
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"unresolvedReference": {    // Rust unresolved references (RustAnalyzer)
+		"unresolvedReference": { // Rust unresolved references (RustAnalyzer)
 			"foreground": "#E56EA9", // Arctan Pink
 			"fontStyle": ""
 		},
 		// --- Token Modifiers --- //
 		//* Used modifiers (have *. syntax)  
-		"*.callable": {   // Rust locals that implement an Fn* trait (std::ops::Fn)
+		"*.callable": { // Rust locals that implement an Fn* trait (std::ops::Fn)
 			"foreground": "#67AAE5",
 			"fontStyle": "",
-		},		
-		"*.constant": {  // Rust constants
+		},
+		"*.constant": { // Rust constants
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
 		},
-		"*.consuming": {  // Rust local variables consumed in function call
+		"*.consuming": { // Rust local variables consumed in function call
 			"fontStyle": "",
 		},
-		"*.controlFlow": {  // Rust control flow keywords (including ?)
+		"*.controlFlow": { // Rust control flow keywords (including ?)
 			"foreground": "#CD7EDD",
 			"fontStyle": "",
-		},		
-		"*.crateRoot": {  // Rust namespace roots like `std`, `thiserror`, and `crate`
+		},
+		"*.crateRoot": { // Rust namespace roots like `std`, `thiserror`, and `crate`
 			"foreground": "#C1C5CC",
 			"fontStyle": "",
-		},				         
+		},
 		"*.deprecated": {
 			"foreground": "#E56EA9", // Arctan Pink
 			"fontStyle": ""
@@ -1783,7 +1788,7 @@
 		"variable.mutable": {
 			"fontStyle": "underline"
 		},
-		"*.typeHint": {   // Python
+		"*.typeHint": { // Python
 			"foreground": "#5BCCAA", // Arctan Teal
 			"fontStyle": "",
 		},
@@ -1791,34 +1796,34 @@
 			"foreground": "#8B949E", // Arctan Comment
 			"fontStyle": "",
 		},
-		"*.injected": {  // Rust Code blocks in docstrings, e.g. ```rust fn foo() {} ```
+		"*.injected": { // Rust Code blocks in docstrings, e.g. ```rust fn foo() {} ```
 			"foreground": "#7AAFDD", // Arctan Code Block
 			"fontStyle": "",
-		},		
-		"*.intraDocLink": {   // Rust intra doc links, e.g. [Iterator](std::iter::Iterator)
+		},
+		"*.intraDocLink": { // Rust intra doc links, e.g. [Iterator](std::iter::Iterator)
 			"foreground": "#568AD8", // Arctan Link
 			"fontStyle": "",
 		},
 		//* Unused modifiers 
-		"defaultLibrary": {     // Std Library
+		"defaultLibrary": { // Std Library
 			"foreground": "#00aa00",
 			"fontStyle": "",
-		},	
+		},
 		"modification": {
 			"foreground": "#00aa00",
 			"fontStyle": "",
 		},
-		"library": {    // Rust items defined outside current crate
+		"library": { // Rust items defined outside current crate
 			"foreground": "#00aa00",
 			"fontStyle": "",
 		},
-		"public": {  // Rust pub items
+		"public": { // Rust pub items
 			"foreground": "#00aa00",
 			"fontStyle": "",
 		},
-		"reference": {  // Rust locals behind a reference
+		"reference": { // Rust locals behind a reference
 			"foreground": "#00aa00",
 			"fontStyle": "",
 		},
-    }
+	}
 }
