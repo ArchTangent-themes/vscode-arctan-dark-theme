@@ -764,6 +764,7 @@
 		{
 			"scope": [
 				// General
+				"string.unquoted",
 				"string.quoted.raw",
 				"string.quoted.double",
 				"string.quoted.single",
@@ -774,6 +775,9 @@
 				// Python
 				"string.quoted.single.python",
 				"string.quoted.multi.python",
+				// KDL
+				"string.quoted.other.raw.kdl",
+				"string.quoted.triple.kdl",
 			],
 			"settings": {
 				"foreground": "#94BF69",
@@ -831,7 +835,7 @@
 				"fontStyle": "",
 			}
 		},
-		//* Boolean (Teal)
+		//* Boolean and Golang types (Teal)
 		{
 			"scope": [
 				// General
@@ -840,6 +844,11 @@
 				"constant.language.bool.rust",
 				// Python
 				"constant.language.python",
+				// Golang types
+				"entity.name.type.go",
+				"storage.type.string.go",
+				"storage.type.numeric.go",
+				"storage.type.error.go",
 			],
 			"settings": {
 				"foreground": "#58c4a3",
