@@ -4,10 +4,10 @@
     "author": "ArchTangent <archtangent13@gmail.com>",
     "displayName": "Arctan Dark",
     "description": "Actan Dark theme for VS Code",
-    "version": "1.3.0",
     "engines": {
         "vscode": "^1.63.0"
     },
+    "version": "1.4.0",
     "categories": [
         "Themes"
     ],
