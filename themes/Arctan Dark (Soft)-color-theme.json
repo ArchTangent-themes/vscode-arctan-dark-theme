@@ -789,6 +789,8 @@
 			"scope": [
 				// General
 				"constant.character.escape",
+				// Golang
+				"constant.other.placeholder.go",
 				// Rust
 				"punctuation.definition.interpolation.rust",
 				"constant.character.escape.rust",
@@ -849,6 +851,7 @@
 				"storage.type.string.go",
 				"storage.type.numeric.go",
 				"storage.type.error.go",
+				"storage.type.boolean.go",
 			],
 			"settings": {
 				"foreground": "#58c4a3",
